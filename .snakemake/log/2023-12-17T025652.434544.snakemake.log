@@ -1,0 +1,3 @@
+ModuleNotFoundError in line 6 of /home/odette/DIY/workflows/rules/FASTQC/main.smk:
+No module named 'constants'
+  File "/home/odette/DIY/workflows/rules/FASTQC/main.smk", line 6, in <module>

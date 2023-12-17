@@ -1,0 +1,4 @@
+WorkflowError in line 2 of /home/odette/DIY/workflows/Snakefile:
+Failed to open source file /ules/KALLISTO/INDEX/main.smk
+FileNotFoundError: [Errno 2] No such file or directory: '/ules/KALLISTO/INDEX/main.smk'
+  File "/home/odette/DIY/workflows/Snakefile", line 2, in <module>

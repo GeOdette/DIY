@@ -1,0 +1,14 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                   count    min threads    max threads
+------------------  -------  -------------  -------------
+all                       1              1              1
+kallisto_map_quant        1              4              4
+total                     2              1              4
+
+Select jobs to execute...
+RuleException in line 50 of /home/odette/DIY/workflows/rules/KALLISTO/QUANT/main.smk:
+NameError: The name 'read for read in input' is unknown in this context. Please make sure that you defined that variable. Also note that braces not used for variable access have to be escaped by repeating them, i.e. {{print $1}}

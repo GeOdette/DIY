@@ -1,0 +1,4 @@
+NameError in line 18 of /home/odette/DIY/workflows/rules/KALLISTO/INDEX/main.smk:
+name 'log_file' is not defined
+  File "/home/odette/DIY/workflows/Snakefile", line 2, in <module>
+  File "/home/odette/DIY/workflows/rules/KALLISTO/INDEX/main.smk", line 18, in <module>

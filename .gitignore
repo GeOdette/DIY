@@ -1,0 +1,8 @@
+#ignore fastq test files
+
+/data/*
+!/data/
+/results/*
+/results/
+Homo_sapiens*
+/logs/

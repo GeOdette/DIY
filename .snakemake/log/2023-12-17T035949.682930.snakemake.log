@@ -1,0 +1,14 @@
+Building DAG of jobs...
+MissingInputException in line 15 of /home/odette/DIY/workflows/rules/FASTQC/main.smk:
+Missing input files for rule fastqc:
+/home/odette/DIY/dataSRR8668773.fastq.gz
+/home/odette/DIY/dataSRR8668772.fastq.gz
+/home/odette/DIY/dataSRR8668755_1M_subsample.fastq.gz
+/home/odette/DIY/dataSRR8668757.fastq.gz
+/home/odette/DIY/dataSRR8668759.fastq.gz
+/home/odette/DIY/dataSRR8668756.fastq.gz
+/home/odette/DIY/dataSRR8668774.fastq.gz
+/home/odette/DIY/dataSRR8668769.fastq.gz
+/home/odette/DIY/dataSRR8668755.fastq.gz
+/home/odette/DIY/dataSRR8668771.fastq.gz
+/home/odette/DIY/dataSRR8668758.fastq.gz

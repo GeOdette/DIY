@@ -1,0 +1,2 @@
+SyntaxError in line 29 of /home/odette/DIY/DIY/workflows/rules/KALLISTO/QUANT/main.smk:
+Expecting rule keyword, comment or docstrings inside a rule definition. (main.smk, line 29)

@@ -1,0 +1,16 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                   count    min threads    max threads
+------------------  -------  -------------  -------------
+all                       1              1              1
+kallisto_map_quant        1              4              4
+total                     2              1              4
+
+Select jobs to execute...
+
+[Fri Dec 15 16:19:46 2023]
+Job 1: Mapping reads to /home/odette/DIY/Homo_sapiens.GRCh38.cdna.all.index using kallisto for sample
+

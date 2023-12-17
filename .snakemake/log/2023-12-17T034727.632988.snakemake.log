@@ -1,0 +1,3 @@
+AttributeError in line 9 of /home/odette/DIY/workflows/rules/FASTQC/main.smk:
+'dict' object has no attribute 'yaml'
+  File "/home/odette/DIY/workflows/rules/FASTQC/main.smk", line 9, in <module>

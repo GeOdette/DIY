@@ -1,0 +1,2 @@
+Module	Section	Sample Name	Source
+Kallisto	all_sections	home | odette | DIY | logs | SRR8668755_1M_subsample	/home/odette/DIY/logs/subsample.log

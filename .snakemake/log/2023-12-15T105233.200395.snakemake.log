@@ -1,0 +1,3 @@
+NameError in line 15 of /home/odette/DIY/workflows/rules/KALLISTO/QUANT/main.smk:
+name 'Execption' is not defined
+  File "/home/odette/DIY/workflows/rules/KALLISTO/QUANT/main.smk", line 15, in <module>

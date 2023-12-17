@@ -1,0 +1,23 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+all           1              1              1
+fastqc        1              4              4
+total         2              1              4
+
+Select jobs to execute...
+
+[Sun Dec 17 05:24:37 2023]
+rule fastqc:
+    input: /home/odette/DIY/data/SRR8668772.fastq.gz, /home/odette/DIY/data/SRR8668756.fastq.gz, /home/odette/DIY/data/SRR8668774.fastq.gz, /home/odette/DIY/data/SRR8668769.fastq.gz, /home/odette/DIY/data/SRR8668771.fastq.gz, /home/odette/DIY/data/SRR8668758.fastq.gz, /home/odette/DIY/data/SRR8668773.fastq.gz, /home/odette/DIY/data/SRR8668757.fastq.gz, /home/odette/DIY/data/SRR8668755_1M_subsample.fastq.gz, /home/odette/DIY/data/SRR8668755.fastq.gz, /home/odette/DIY/data/SRR8668759.fastq.gz
+    output: /home/odette/DIY/results/FASTQC/SRR8668772, /home/odette/DIY/results/FASTQC/SRR8668756, /home/odette/DIY/results/FASTQC/SRR8668774, /home/odette/DIY/results/FASTQC/SRR8668769, /home/odette/DIY/results/FASTQC/SRR8668771, /home/odette/DIY/results/FASTQC/SRR8668758, /home/odette/DIY/results/FASTQC/SRR8668773, /home/odette/DIY/results/FASTQC/SRR8668757, /home/odette/DIY/results/FASTQC/SRR8668755_1M_subsample, /home/odette/DIY/results/FASTQC/SRR8668755, /home/odette/DIY/results/FASTQC/SRR8668759, /home/odette/DIY/logs/FASTQCfastqc_SRR8668772.log, /home/odette/DIY/logs/FASTQCfastqc_SRR8668756.log, /home/odette/DIY/logs/FASTQCfastqc_SRR8668774.log, /home/odette/DIY/logs/FASTQCfastqc_SRR8668769.log, /home/odette/DIY/logs/FASTQCfastqc_SRR8668771.log, /home/odette/DIY/logs/FASTQCfastqc_SRR8668758.log, /home/odette/DIY/logs/FASTQCfastqc_SRR8668773.log, /home/odette/DIY/logs/FASTQCfastqc_SRR8668757.log, /home/odette/DIY/logs/FASTQCfastqc_SRR8668755_1M_subsample.log, /home/odette/DIY/logs/FASTQCfastqc_SRR8668755.log, /home/odette/DIY/logs/FASTQCfastqc_SRR8668759.log
+    jobid: 1
+    threads: 4
+    resources: tmpdir=/tmp
+
+Terminating processes on user request, this might take some time.
+Complete log: /home/odette/DIY/.snakemake/log/2023-12-17T052436.782829.snakemake.log

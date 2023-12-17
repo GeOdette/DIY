@@ -1,0 +1,1 @@
+include: "rules/KALLISTO/INDEX/main.smk"

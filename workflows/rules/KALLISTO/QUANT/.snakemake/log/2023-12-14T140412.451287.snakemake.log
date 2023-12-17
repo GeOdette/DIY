@@ -1,0 +1,25 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                   count    min threads    max threads
+------------------  -------  -------------  -------------
+all                       1              1              1
+kallisto_map_quant        1              4              4
+total                     2              1              4
+
+Select jobs to execute...
+
+[Thu Dec 14 14:04:13 2023]
+rule kallisto_map_quant:
+    input: /home/odette/DIY/DIY/Homo_sapiens.GRCh38.cdna.all.index, /home/odette/DIY/DIY/data/SRR8668755_1M_subsample.fastq.gz
+    output: ../results/KALLISTO_QUANTS
+    log: results/logs/quant.log
+    jobid: 1
+    threads: 4
+    resources: tmpdir=/tmp
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/odette/DIY/DIY/workflows/rules/KALLISTO/QUANT/.snakemake/log/2023-12-14T140412.451287.snakemake.log

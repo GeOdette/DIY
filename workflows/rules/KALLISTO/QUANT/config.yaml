@@ -1,0 +1,5 @@
+
+threads: 3
+strand_length: 250
+std_deviation: 30
+single_end: true

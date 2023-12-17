@@ -1,0 +1,3 @@
+AttributeError in line 31 of /home/odette/DIY/DIY/workflows/rules/KALLISTO/QUANT/main.smk:
+'builtin_function_or_method' object has no attribute 'transcriptome'
+  File "/home/odette/DIY/DIY/workflows/rules/KALLISTO/QUANT/main.smk", line 31, in <module>

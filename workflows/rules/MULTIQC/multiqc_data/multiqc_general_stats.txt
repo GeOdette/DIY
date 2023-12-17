@@ -1,0 +1,2 @@
+Sample	Kallisto_mqc-generalstats-kallisto-percent_aligned	Kallisto_mqc-generalstats-kallisto-pseudoaligned_reads
+home | odette | DIY | logs | SRR8668755_1M_subsample	52.82019999999999	528202.0

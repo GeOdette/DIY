@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                   count    min threads    max threads
+------------------  -------  -------------  -------------
+all                       1              1              1
+kallisto_map_quant        1              4              4
+total                     2              1              4
+
+Select jobs to execute...
+
+[Fri Dec 15 11:11:33 2023]
+Job 1: Mapping /home/odette/DIY/data/SRR8668772.fastq.gz /home/odette/DIY/data/SRR8668756.fastq.gz /home/odette/DIY/data/SRR8668774.fastq.gz /home/odette/DIY/data/SRR8668769.fastq.gz /home/odette/DIY/data/SRR8668771.fastq.gz /home/odette/DIY/data/SRR8668758.fastq.gz /home/odette/DIY/data/SRR8668773.fastq.gz /home/odette/DIY/data/SRR8668757.fastq.gz /home/odette/DIY/data/SRR8668755_1M_subsample.fastq.gz /home/odette/DIY/data/SRR8668755.fastq.gz /home/odette/DIY/data/SRR8668759.fastq.gz to /home/odette/DIY/Homo_sapiens.GRCh38.cdna.all.index using kallisto
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/odette/DIY/.snakemake/log/2023-12-15T111132.441957.snakemake.log

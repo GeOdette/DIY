@@ -1,0 +1,5 @@
+TypeError in line 9 of /home/odette/DIY/workflows/rules/FASTQC/main.smk:
+expected str, bytes or os.PathLike object, not list
+  File "/home/odette/DIY/workflows/rules/FASTQC/main.smk", line 9, in <module>
+  File "/usr/lib/python3.10/os.py", line 210, in makedirs
+  File "/usr/lib/python3.10/posixpath.py", line 103, in split

@@ -1,0 +1,2 @@
+Sample	total_reads	pseudoaligned_reads	not_pseudoaligned_reads	percent_aligned
+home | odette | DIY | logs | SRR8668755_1M_subsample	1000000.0	528202.0	471798.0	52.82019999999999

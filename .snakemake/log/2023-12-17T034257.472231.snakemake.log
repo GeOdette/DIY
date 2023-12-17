@@ -1,0 +1,2 @@
+SyntaxError in line 13 of /home/odette/DIY/workflows/rules/FASTQC/main.smk:
+invalid syntax. Perhaps you forgot a comma?

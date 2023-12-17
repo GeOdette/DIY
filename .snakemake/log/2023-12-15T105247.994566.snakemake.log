@@ -1,0 +1,3 @@
+NameError in line 56 of /home/odette/DIY/workflows/rules/KALLISTO/QUANT/main.smk:
+name 'Directory' is not defined
+  File "/home/odette/DIY/workflows/rules/KALLISTO/QUANT/main.smk", line 56, in <module>

@@ -1,0 +1,3 @@
+WorkflowError in line 9 of /home/odette/DIY/workflows/rules/FASTQC/main.smk:
+Workflow defines configfile config.yaml but it is not present or accessible.
+  File "/home/odette/DIY/workflows/rules/FASTQC/main.smk", line 9, in <module>

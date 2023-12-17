@@ -1,0 +1,3 @@
+ImportError in line 3 of /home/odette/DIY/workflows/rules/KALLISTO/INDEX/main.smk:
+attempted relative import beyond top-level package
+  File "/home/odette/DIY/workflows/rules/KALLISTO/INDEX/main.smk", line 3, in <module>

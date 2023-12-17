@@ -1,0 +1,131 @@
+{
+    "report_data_sources": {
+        "Kallisto": {
+            "all_sections": {
+                "home | odette | DIY | logs | SRR8668755_1M_subsample": "/home/odette/DIY/logs/subsample.log"
+            }
+        }
+    },
+    "report_general_stats_data": [
+        {
+            "home | odette | DIY | logs | SRR8668755_1M_subsample": {
+                "total_reads": 1000000.0,
+                "pseudoaligned_reads": 528202.0,
+                "not_pseudoaligned_reads": 471798.0,
+                "percent_aligned": 52.82019999999999
+            }
+        }
+    ],
+    "report_general_stats_headers": [
+        {
+            "percent_aligned": {
+                "title": "% Aligned",
+                "description": "% processed reads that were pseudoaligned",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "YlGn",
+                "namespace": "Kallisto",
+                "rid": "mqc-generalstats-kallisto-percent_aligned",
+                "format": "{:,.1f}",
+                "colour": "55,126,184",
+                "hidden": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            },
+            "pseudoaligned_reads": {
+                "title": "M Aligned",
+                "description": "Pseudoaligned reads (millions)",
+                "min": 0,
+                "scale": "PuRd",
+                "modify": 1e-06,
+                "shared_key": "read_count",
+                "namespace": "Kallisto",
+                "rid": "mqc-generalstats-kallisto-pseudoaligned_reads",
+                "format": "{:,.1f}",
+                "colour": "55,126,184",
+                "hidden": null,
+                "max": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "placement": 1000.0,
+                "dmax": 0.528202,
+                "dmin": 0.0
+            }
+        }
+    ],
+    "report_multiqc_command": "/home/odette/anaconda3/bin/multiqc -d /home/odette/DIY",
+    "report_plot_data": {
+        "kallisto_alignment": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "home | odette | DIY | logs | SRR8668755_1M_subsample"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "Pseudoaligned",
+                        "data": [
+                            528202.0
+                        ],
+                        "color": "#437bb1"
+                    },
+                    {
+                        "name": "Not aligned",
+                        "data": [
+                            471798.0
+                        ],
+                        "color": "#b1084c"
+                    }
+                ]
+            ],
+            "config": {
+                "id": "kallisto_alignment",
+                "title": "Kallisto: Alignment Scores",
+                "ylab": "# Reads",
+                "cpswitch_counts_label": "Number of Reads"
+            }
+        }
+    },
+    "report_saved_raw_data": {
+        "multiqc_kallisto": {
+            "home | odette | DIY | logs | SRR8668755_1M_subsample": {
+                "total_reads": 1000000.0,
+                "pseudoaligned_reads": 528202.0,
+                "not_pseudoaligned_reads": 471798.0,
+                "percent_aligned": 52.82019999999999
+            }
+        },
+        "multiqc_general_stats": {
+            "home | odette | DIY | logs | SRR8668755_1M_subsample": {
+                "Kallisto_mqc-generalstats-kallisto-percent_aligned": 52.82019999999999,
+                "Kallisto_mqc-generalstats-kallisto-pseudoaligned_reads": 528202.0
+            }
+        }
+    },
+    "config_analysis_dir_abs": [
+        "/home/odette/DIY"
+    ],
+    "config_analysis_dir": [
+        "/home/odette/DIY"
+    ],
+    "config_creation_date": "2023-12-14, 21:02 EAT",
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/home/odette/anaconda3/lib/python3.10/site-packages/multiqc/utils",
+    "config_short_version": "1.14",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.14"
+}

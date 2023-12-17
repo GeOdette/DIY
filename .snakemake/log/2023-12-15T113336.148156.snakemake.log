@@ -1,0 +1,2 @@
+SyntaxError in line 65 of /home/odette/DIY/workflows/rules/KALLISTO/QUANT/main.smk:
+unterminated string literal (detected at line 82)

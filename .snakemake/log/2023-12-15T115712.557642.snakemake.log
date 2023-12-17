@@ -1,0 +1,18 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Job stats:
+job                   count    min threads    max threads
+------------------  -------  -------------  -------------
+all                       1              1              1
+kallisto_map_quant        1              4              4
+total                     2              1              4
+
+Select jobs to execute...
+
+[Fri Dec 15 11:57:13 2023]
+Job 1: Mapping reads to /home/odette/DIY/Homo_sapiens.GRCh38.cdna.all.index using kallisto for sample
+
+Terminating processes on user request, this might take some time.
+Complete log: /home/odette/DIY/.snakemake/log/2023-12-15T115712.557642.snakemake.log

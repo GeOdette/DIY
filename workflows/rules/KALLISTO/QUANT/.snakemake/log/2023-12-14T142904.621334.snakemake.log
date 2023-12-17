@@ -1,0 +1,2 @@
+SyntaxError in line 29 of /home/odette/DIY/DIY/workflows/rules/KALLISTO/QUANT/main.smk:
+No rule keywords allowed after run/shell/script/wrapper/cwl in rule kallisto_map_quant. (main.smk, line 29)

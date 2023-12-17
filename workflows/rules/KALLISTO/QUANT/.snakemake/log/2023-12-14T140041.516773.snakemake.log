@@ -1,0 +1,5 @@
+Building DAG of jobs...
+MissingInputException in line 16 of /home/odette/DIY/DIY/workflows/rules/KALLISTO/QUANT/main.smk:
+Missing input files for rule kallisto_map_quant:
+/home/odette/DIY/data/transcriptome.fasta.gz
+/home/odette/DIY/data/SRR8668755_1M_subsample.fastq.gz

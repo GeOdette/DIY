@@ -1,0 +1,4 @@
+ModuleNotFoundError in line 3 of /home/odette/DIY/workflows/rules/KALLISTO/INDEX/main.smk:
+No module named 'DIY'
+  File "/home/odette/DIY/workflows/Snakefile", line 2, in <module>
+  File "/home/odette/DIY/workflows/rules/KALLISTO/INDEX/main.smk", line 3, in <module>
